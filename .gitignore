@@ -1,0 +1,28 @@
+# BINARIES
+build/
+artifacts/
+bin/
+dist/
+*.exe
+*.out
+
+# DEPENDENCIES
+/vendor/
+/go/pkg/
+
+# LOCAL
+.env
+.local
+
+# IDE
+.idea/
+.vscode/
+
+# LOG
+*.log
+
+# OTHERS
+.DS_Store
+Thumbs.db
+*.cover
+*.cov
